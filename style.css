@@ -27,7 +27,7 @@ html {
     margin: 1.5%;
 }
 table {
-    width: 95%;
+    width: 97.5%;
 }
 table, td, th {
     border: 1px solid black;
@@ -41,4 +41,7 @@ table, td, th {
     border: 2%;
     margin: 2%;
     padding: .5%;
+}
+.color {
+    background-color: rgb(179, 179, 179)
 }

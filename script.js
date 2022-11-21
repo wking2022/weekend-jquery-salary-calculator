@@ -1,1 +1,5 @@
-console.log('Check me out!');
+$(document).ready(onReady);
+
+function onReady(){
+    $('#').on('click');
+}
