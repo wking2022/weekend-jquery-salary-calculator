@@ -7,17 +7,63 @@
     <script src="jquery.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Salary Calculator</title>
 </head>
 <body>
+    <div class="div0">
+      <h1 id="header">Salary Calculator</h1>
+    </div>
+    <div class="div1">
+        <h3 id="">Add employee</h3>
+    </div>
+
     <form>
-      <label id=""></label>
       <input name="first" placeholder="First Name">
       <input name="last" placeholder="Last Name">
       <input id="" placeholder="ID">
-      <input text="title" placeholder="Title">
+      <input text="title" placeholder="Job Title">
       <input number="anSalary" placeholder="Annual Salary">
-      <button id="">Submit</button>
+      <button id="submitBut">Submit</button>
     </form>
+
+    <div>
+        <h3>Employees</h3>
+    </div>
+    <table>
+        <thead>
+            <tr id="">
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Job Title</th>
+                <th>Annual Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Liam</td>
+                <td>King</td>
+                <td>1</td>
+                <td>CEO</td>
+                <td>$917,000</td>
+            </tr>
+
+            <tr>
+                <td>Johnathan</td>
+                <td>Melwore</td>
+                <td>87373</td>
+                <td>District Manager</td>
+                <td>$117,000</td>
+            </tr>
+
+            <tr>
+                <td>Margan</td>
+                <td>Mansmenson</td>
+                <td>267838</td>
+                <td>Operations Manager</td>
+                <td>$98,800</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
