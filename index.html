@@ -10,33 +10,34 @@
     <title>Salary Calculator</title>
 </head>
 <body>
-    <div class="div0">
-      <h1 id="header">Salary Calculator</h1>
+    <div id="header">
+      <h1>Salary Calculator</h1>
     </div>
-    <div class="div1">
-        <h3 id="">Add employee</h3>
+    <div>
+        <h3 class="call">Add employee</h3>
     </div>
 
-    <form>
-      <input name="first" placeholder="First Name">
-      <input name="last" placeholder="Last Name">
-      <input id="" placeholder="ID">
-      <input text="title" placeholder="Job Title">
-      <input number="anSalary" placeholder="Annual Salary">
-      <button id="submitBut">Submit</button>
+    <form class="call">
+      <input type="text" placeholder="First Name" class="edit more">
+      <input type="text" placeholder="Last Name" class="edit more">
+      <input type="number" placeholder="ID" class="edit more">
+      <input type="text" placeholder="Job Title" class="edit more">
+      <input type="number" placeholder="Annual Salary" class="edit more">
+      <button type="submitBut" class="edit">Submit</button>
     </form>
 
     <div>
-        <h3>Employees</h3>
+        <h3 class="call">Employees</h3>
     </div>
-    <table>
-        <thead>
-            <tr id="">
+    <table class="call tell">
+        <thead id="theader">
+            <tr>
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>ID</th>
                 <th>Job Title</th>
                 <th>Annual Salary</th>
+                <th> </th>
             </tr>
         </thead>
         <tbody>
@@ -46,7 +47,7 @@
                 <td>1</td>
                 <td>CEO</td>
                 <td>$917,000</td>
-                <td><button>Delete</button></td>
+                <td><button class="deleteBut" >Delete</button></td>
             </tr>
 
             <tr>
@@ -55,7 +56,7 @@
                 <td>87373</td>
                 <td>District Manager</td>
                 <td>$117,000</td>
-                <td><button>Delete</button></td>
+                <td><button class="deleteBut" >Delete</button></td>
             </tr>
 
             <tr>
@@ -64,12 +65,13 @@
                 <td>267838</td>
                 <td>Operations Manager</td>
                 <td>$98,800</td>
-                <td><button>Delete</button></td>
+                <td><button class="deleteBut" >Delete</button></td>
             </tr>
+            
         </tbody>
     </table>
     <div>
-        <h2>Total Salary</h2>
+        <h2 id="totSal">Total Salary:</h2>
     </div>
 </body>
 </html>

@@ -1,3 +1,44 @@
 html {
     background-color: tomato;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#header {
+    border: 2%;
+    margin: 2%;
+    padding: .5%;
+    text-align: center;
+    background-color: gray;
+}
+#theader {
+    background-color: rgb(179, 179, 179);
+}
+ #totSal {
+    text-align: right;
+    padding: 2%;
+    margin: 2%;
+}
+.call {
+    border: 2%;
+    margin: 1%;
+    padding: .5%;
+}
+.edit {
+    padding: 2%;
+    margin: 1.5%;
+}
+table {
+    width: 95%;
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.more {
+    width: 10%;
+}
+.big {
+    background-color: gray;
+    border: 2%;
+    margin: 2%;
+    padding: .5%;
 }
